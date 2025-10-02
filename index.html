@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <style>
+    /* Reset & basic */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+    body, html { height: 100%; display: flex; align-items: center; justify-content: center; background: #f8f8f8; }
+
+    /* Container */
+    .container {
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1s ease;
+    }
+
+    /* 404 Number */
+    .container h1 {
+      font-size: 8rem;
+      color: #ff4c60;
+      margin-bottom: 20px;
+    }
+
+    /* Message */
+    .container p {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    /* Button */
+    .container a {
+      text-decoration: none;
+      color: #fff;
+      background: #ff4c60;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .container a:hover {
+      background: #e04355;
+    }
+
+    /* Optional image */
+    .container img {
+      max-width: 300px;
+      width: 80%;
+      margin: 20px 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container h1 { font-size: 5rem; }
+      .container p { font-size: 1.2rem; }
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <p>Oops! Page not found.</p>
+    
+  </div>
+</body>
+</html>
